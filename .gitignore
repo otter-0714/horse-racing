@@ -1,0 +1,2 @@
+docs/credentials/*
+!docs/credentials/.gitkeep
