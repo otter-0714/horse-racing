@@ -1,0 +1,22 @@
+{
+  "svg.preview.background": "transparent",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "パラメータ"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "パラメータ": {
+      "icon": "tools"
+    }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#ff5555", // アクティビティバーの背景色
+    "activityBar.foreground": "#000000" // アクティビティバーの文字色
+  }
+}
