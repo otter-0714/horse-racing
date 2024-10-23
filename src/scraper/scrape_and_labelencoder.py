@@ -65,15 +65,7 @@ def scrape_all_race_id(start_year, end_year):
 
     for year in range(start_year, end_year + 1):
         scraper = RaceIdListScraper(year, year)
-        # todo_race_ids = scraper.scrape_raceid_list()
-        todo_race_ids = [
-            "202343112806",
-            "202343112807",
-            "202343112808",
-            "202343112707",
-            "202365112704",
-            "202365112705",
-        ]
+        todo_race_ids = scraper.scrape_raceid_list()
         todo_race_ids = list(set(todo_race_ids) - set(done_race_ids))
         for race_id in todo_race_ids:
             if race_id[4:6] in ["63", "64", "65", "66"]:
