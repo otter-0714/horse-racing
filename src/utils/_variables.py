@@ -15,6 +15,8 @@ KIND_OF_TICKET = [
     "三連複",
     "三連単",
 ]
+# 出走時刻から何時間の気候データを平均するか
+ROLLBACK_FROM_START_TIME = 4
 
 path2secret = os.path.join(
     os.path.dirname(__file__), "..", "..", "docs", "credentials", "secret.json"
