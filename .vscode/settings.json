@@ -18,5 +18,20 @@
   "workbench.colorCustomizations": {
     "activityBar.background": "#ff5555", // アクティビティバーの背景色
     "activityBar.foreground": "#000000" // アクティビティバーの文字色
-  }
+  },
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "horse-racing-db3.cd6oq0c8w83f.ap-northeast-1.rds.amazonaws.com",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "justconnecting",
+      "username": "admin",
+      "database": "dbtest"
+    }
+  ]
 }
