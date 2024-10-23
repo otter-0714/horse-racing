@@ -1,2 +1,8 @@
 docs/credentials/*
 !docs/credentials/.gitkeep
+log.txt
+*pem
+*.sql
+__pycache__/
+_test/*
+!_test/.gitkeep
