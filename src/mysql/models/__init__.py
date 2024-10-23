@@ -21,5 +21,7 @@ from src.mysql.models.db2 import (
     LabelEncoderOwnerId,
     LabelEncoderSex,
     LabelEncoderSireId,
-    LabelEncoderDamId
+    LabelEncoderDamId,
 )
+
+from src.mysql.models.db3 import EngineeredFeature
